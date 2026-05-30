@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart City Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🌍 Smart City Clock</h1>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter City or Country...">
+      <button onclick="getCityData()">Search</button>
+    </div>
+
+    <!-- CLOCK CARD -->
+    <div class="card">
+
+      <!-- ONLY 24H TIME -->
+      <div id="time">00:00:00</div>
+
+      <div class="info">
+        <p id="day">Day</p>
+        <p id="date">Date</p>
+      </div>
+
+      <div class="weather">
+        🌡️ Temp: <span id="temp">--</span>°C
+      </div>
+
+      <div class="location">
+        📍 City: <span id="city">--</span>
+      </div>
+
+    </div>
+
+    <div id="msg"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

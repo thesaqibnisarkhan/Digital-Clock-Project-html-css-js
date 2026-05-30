@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1020;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-shadow: 0 0 15px cyan;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: cyan;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  width: 320px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px cyan;
+}
+
+#time {
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 0 0 10px cyan;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.weather, .location {
+  margin-top: 10px;
+}
+
+#msg {
+  margin-top: 10px;
+  color: yellow;
+}
